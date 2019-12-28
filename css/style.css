@@ -1416,11 +1416,7 @@ element.style {
     cursor: pointer;
     padding: 0px 0px 0px 120%;
     background: transparent;
-}
-
-element.style {
-    position: relative;
-    overflow: hidden;
+    border: none;
 }
 
 .css-1k00hpm,
@@ -1998,6 +1994,7 @@ element.style {
     position: relative;
     margin: 0px 32px;
     padding: 0px 0px 20px;
+    height: 105px;
 }
 
 element.style {
@@ -2079,7 +2076,7 @@ h6 {
     border-image: initial;
     margin: 0px;
     border-radius: 3px;
-    background: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwO…RsLTgtOEwyLjA3NCAzIDggOC45MjYgMTMuOTI2IDMgMTYgNS4wNzR6Ij48L3BhdGg+PC9zdmc+) calc(100% - 12px) 50% no-repeat rgb(255, 255, 255);
+    background: url(../images/pb1.svg) calc(100% - 12px) 50% no-repeat rgb(255, 255, 255);
     padding: 12px 38px 12px 12px;
     background-position: calc(100% - 12px) 50%;
     background-repeat: no-repeat;
@@ -2089,7 +2086,7 @@ h6 {
 .css-15rdlj4:hover,
 [data-css-15rdlj4]:hover {
     box-shadow: rgb(96, 106, 113) 0px 0px 0px 1px inset;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwO…RsLTgtOEwyLjA3NCAzIDggOC45MjYgMTMuOTI2IDMgMTYgNS4wNzR6Ij48L3BhdGg+PC9zdmc+);
+    background-image: url(../images/pb2.svg);
 }
 
 .css-13angw6,
@@ -2219,7 +2216,6 @@ h5 {
 [data-css-18bf9bb] {
     list-style-type: none;
     display: flex;
-    position: relative;
     width: 100%;
     -webkit-box-pack: justify;
     justify-content: space-between;
@@ -2227,6 +2223,10 @@ h5 {
     align-items: center;
     margin: 0px;
     border-top: 1px solid rgb(231, 233, 234);
+    position: absolute;
+    height: 105px;
+    top: 0px;
+    left: 0px;
 }
 
 .css-1cay3o0,
@@ -2237,8 +2237,9 @@ h5 {
     align-items: center;
 }
 
-element.style {
-    width: 155px;
+.css-88xpse:not(:last-child),
+[data-css-88xpse]:not(:last-child) {
+    margin-right: 32px;
 }
 
 .css-17vu0sj,
@@ -2254,6 +2255,39 @@ element.style {
 .css-18bf9bb>div,
 [data-css-18bf9bb]>div {
     padding: 12px;
+}
+
+.css-88xpse,
+[data-css-88xpse] {
+    box-sizing: border-box;
+    display: flex;
+    min-width: 0px;
+    flex-grow: 1;
+    flex-basis: 0px;
+    padding: 12px;
+}
+
+.css-16rtoan,
+[data-css-16rtoan] {
+    min-width: 0px;
+    flex-grow: 2;
+    flex-basis: 0px;
+    padding: 4px 12px;
+}
+
+.css-1cay3o0,
+[data-css-1cay3o0] {
+    display: inline-flex;
+    vertical-align: middle;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.css-183gsi4,
+[data-css-183gsi4] {
+    font-size: 12px;
+    color: rgb(207, 210, 212);
+    transition: all 0.25s ease-in-out 0s;
 }
 
 button {
@@ -2513,6 +2547,13 @@ body::before {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
     background: rgb(255, 255, 255);
     border-radius: 3px 3px 0px 0px;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    box-sizing: border-box;
+    min-width: 1024px;
 }
 
 element.style {
@@ -3437,4 +3478,427 @@ a:visited {
 .css-6b17co:focus {
     box-shadow: rgb(23, 176, 237) 0px 0px 0px 1px inset;
     outline: none;
+}
+
+.css-xfmld {
+    width: 57px;
+    height: 57px;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.css-16yswjc,
+[data-css-16yswjc] {
+    box-shadow: rgb(231, 233, 234) 0px 0px 0px 1px inset;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+    background-image: url(../images/publication.jpg);
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.css-15rdlj4:focus,
+[data-css-15rdlj4]:focus {
+    box-shadow: rgb(23, 176, 237) 0px 0px 0px 1px inset;
+    background-image: url(../images/pb3.svg);
+    outline: none;
+}
+
+.css-1dsj4r5:focus,
+[data-css-1dsj4r5]:focus {
+    box-shadow: rgb(23, 176, 237) 0px 0px 0px 1px inset;
+    outline: none;
+}
+
+.css-1awgttx:active,
+[data-css-1awgttx]:active {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+    outline: none;
+    text-decoration: none;
+}
+
+.css-17vu0sj,
+[data-css-17vu0sj] {
+    box-sizing: border-box;
+    text-align: right;
+    width: 414px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 12px;
+}
+
+.css-82yxlt:active,
+[data-css-82yxlt]:active {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+    outline: none;
+    text-decoration: none;
+}
+
+.css-82yxlt:focus,
+[data-css-82yxlt]:focus {
+    box-shadow: rgba(23, 176, 237, 0.7) 0px 0px 0px 2px;
+    outline: none;
+}
+
+.css-o4uon6:hover,
+[data-css-o4uon6]:hover {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    outline: none;
+    text-decoration: none;
+}
+
+.css-1m9jlih:hover,
+[data-css-1m9jlih]:hover {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    outline: none;
+    text-decoration: none;
+}
+
+.css-1taat8k:visited,
+[data-css-1taat8k]:visited {
+    color: rgb(96, 106, 113);
+}
+
+.css-1taat8k:hover,
+[data-css-1taat8k]:hover {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    outline: none;
+    text-decoration: none;
+}
+
+.css-dl3pmw:hover,
+[data-css-dl3pmw]:hover {
+    fill: rgb(23, 176, 237);
+    color: rgb(23, 176, 237);
+}
+
+.css-1awgttx,
+[data-css-1awgttx] {
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;
+    line-height: 1;
+    background-color: transparent;
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 4px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 2px 2px 2px 8px;
+    transition: all 150ms ease-in 0s;
+}
+
+.css-82yxlt:hover,
+[data-css-82yxlt]:hover {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    outline: none;
+    text-decoration: none;
+}
+
+.css-82yxlt:focus,
+[data-css-82yxlt]:focus {
+    box-shadow: rgba(23, 176, 237, 0.7) 0px 0px 0px 2px;
+    outline: none;
+}
+
+.css-1awgttx:hover,
+[data-css-1awgttx]:hover {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    outline: none;
+    text-decoration: none;
+}
+
+.css-jj2p7w,
+[data-css-jj2p7w] {
+    cursor: auto;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 11;
+    display: none;
+}
+
+.css-130kksu,
+[data-css-130kksu] {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px, rgb(231, 233, 234) 0px 0px 0px 1px inset;
+    position: absolute;
+    width: 248px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 4px 0px;
+}
+
+.css-59p266,
+[data-css-59p266] {
+    border-bottom: 1px solid rgb(231, 233, 234);
+    padding: 12px 20px;
+}
+
+.css-24yj6l,
+[data-css-24yj6l] {
+    margin: 0px;
+    padding: 0px 12px;
+    overflow: auto;
+    flex: 0 1 auto;
+}
+
+.css-24yj6l,
+[data-css-24yj6l] {
+    margin: 0px;
+    padding: 0px 12px;
+    overflow: auto;
+    flex: 0 1 auto;
+}
+
+.css-1azzh19:visited,
+[data-css-1azzh19]:visited {
+    color: rgb(96, 106, 113);
+}
+
+.css-1azzh19:first-child,
+[data-css-1azzh19]:first-child {
+    margin-top: 12px;
+}
+
+.css-3i5jgk,
+[data-css-3i5jgk] {
+    margin-right: 8px;
+    display: inline-flex;
+    width: 14px;
+    height: 14px;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    align-self: baseline;
+    flex-shrink: 0;
+}
+
+.css-4iq6vs,
+[data-css-4iq6vs] {
+    position: relative;
+    min-width: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.css-kfsu9e,
+[data-css-kfsu9e] {
+    color: inherit;
+    line-height: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.css-1azzh19:last-child,
+[data-css-1azzh19]:last-child {
+    margin-bottom: 12px;
+}
+
+.css-1azzh19,
+[data-css-1azzh19] {
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: flex;
+    vertical-align: middle;
+    line-height: 22px;
+    font-size: 14px;
+    color: rgb(96, 106, 113);
+    font-weight: 500;
+    background-color: transparent;
+    fill: rgb(96, 106, 113);
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 12px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 8px 0px;
+    transition: all 150ms ease-in 0s;
+}
+
+.css-1azzh19:visited,
+[data-css-1azzh19]:visited {
+    color: rgb(96, 106, 113);
+}
+
+.css-1azzh19:hover,
+[data-css-1azzh19]:hover {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    outline: none;
+    text-decoration: none;
+}
+
+.css-1azzh19:active,
+[data-css-1azzh19]:active {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+    outline: none;
+    text-decoration: none;
+}
+
+.css-3456oa,
+[data-css-3456oa] {
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;
+    line-height: 1;
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 8px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 2px;
+    outline: none;
+    text-decoration: none;
+    transition: all 150ms ease-in 0s;
+}
+
+.css-3456oa:hover,
+[data-css-3456oa]:hover {
+    background-color: rgb(231, 233, 234);
+    color: rgb(96, 106, 113);
+    fill: rgb(96, 106, 113);
+    outline: none;
+    text-decoration: none;
+}
+
+.css-105acoa,
+[data-css-105acoa] {
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;
+    line-height: 22px;
+    font-size: 14px;
+    color: rgb(96, 106, 113);
+    font-weight: 500;
+    background-color: rgb(231, 233, 234);
+    fill: rgb(96, 106, 113);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 8px 48px 8px 8px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    text-decoration: none;
+    transition: all 150ms ease-in 0s;
+}
+
+.css-1fdlwo1,
+[data-css-1fdlwo1] {
+    text-align: center;
+    border-top: 1px solid rgb(231, 233, 234);
+    padding: 12px 20px;
+    flex: 0 0 auto;
+}
+
+.css-n1urd,
+[data-css-n1urd] {
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;
+    line-height: 22px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(231, 233, 234);
+    fill: rgb(96, 106, 113);
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(96, 106, 113) !important;
+    border-radius: 3px;
+    padding: 8px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    transition: all 150ms ease-in 0s;
+}
+
+.css-n1urd:hover,
+[data-css-n1urd]:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+}
+
+.css-n1urd:active,
+[data-css-n1urd]:active {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+}
+
+.css-z2namt,
+[data-css-z2namt] {
+    margin-right: 8px;
+}
+
+.right-fixed {
+    top: 44px;
+    max-height: 262px;
+    right: 8px;
+}
+
+.left-fixed {
+    top: 44px;
+    left: 95.1563px;
+    max-height: 262px;
+}
+
+.css-dsg3t7:active {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 100px inset;
+}
+
+input[type="file" i]:focus {
+    outline-offset: 0px;
 }
