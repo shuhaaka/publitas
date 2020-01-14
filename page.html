@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if lt IE 10 ]>
+   <html lang="en" class="ie">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>Publitas CMS</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.booklet.1.1.0.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="page-block">
+    <div id="publication">
+        <div id="reader">
+
+            <div id="main_menu">
+                <nav id="view_selector" tabindex="0" role="menu" aria-label="Main menu">
+                    <a data-href="toggle_zoom" target="" tabindex="-1" href="" class="" role="menuitem" aria-haspopup="" name="toggle_zoom">
+                        <div class="icon"></div>
+                        <div class="content">Zoom in</div>
+                    </a>
+                    <a data-href="spread_overview" target="" tabindex="-1" href="" class="submenu" role="menuitem" aria-haspopup="true" aria-expanded="&quot;false&quot;" name="spread_overview">
+                        <div class="icon"></div>
+                        <div class="content">Page overview</div>
+                    </a>
+                    <a data-href="toggle_fullscreen" target="" tabindex="-1" href="" class="" role="menuitem" aria-haspopup="" name="toggle_fullscreen">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <span class="enter">Full screen</span>
+                            <span class="exit">Exit full screen</span>
+                        </div>
+                    </a>
+                    <a data-href="download_pdf" target="" tabindex="-1" href="images/netson-edulog_commer_pro.pdf" class="" role="menuitem" aria-haspopup="" name="download_pdf">
+                        <div class="icon"></div>
+                        <div class="content">Download as PDF</div>
+                    </a>
+                    <a data-href="share_view" target="" tabindex="-1" href="" class="submenu" role="menuitem" aria-haspopup="true" aria-expanded="&quot;false&quot;" name="share_view">
+                        <div class="icon"></div>
+                        <div class="content">Share</div>
+                    </a>
+                    <a data-href="report_content" target="" tabindex="-1" href="" class="submenu" role="menuitem" aria-haspopup="true" aria-expanded="false" name="report_content">
+                        <div class="icon"></div>
+                        <div class="content">Report Publication</div>
+                    </a>
+                </nav>
+            </div>
+            <div id="panel" class="">
+                <div id="spread_overview" class="drawer">
+                    <div class="spread-overview reader-view">
+                        <div class="scroll-wrapper" style="overflow-y: auto;">
+                            <ul class="list" tabindex="-1" role="menu" style="position: relative; height: 375px;">
+                                <li role="menuitem" tabindex="-1" class="" style="position: absolute; transform: translate(0px, 73px);">
+                                    <a class="spread" href="#">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="53" width="50%" src="images/pdf2.jpg">
+                                            <img height="53" width="50%" src="images/pdf3.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">2-3</div>
+                                    </a>
+                                </li>
+                                <li role="menuitem" tabindex="-1" style="position: absolute; transform: translate(0px, 146px);" class="">
+                                    <a class="spread" href="https://view.publitas.com/netson/edulog_commer_pro/page/4-5">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="53" width="50%" src="images/pdf4.jpg">
+                                            <img height="53" width="50%" src="images/pdf5.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">4-5</div>
+                                    </a>
+                                </li>
+                                <li role="menuitem" tabindex="0" style="position: absolute; transform: translate(0px, 219px);" class="">
+                                    <a class="spread" href="https://view.publitas.com/netson/edulog_commer_pro/page/6-7">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="53" width="50%" src="images/pdf6.jpg">
+                                            <img height="53" width="50%" src="images/pdf7.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">6-7</div>
+                                    </a>
+                                </li>
+                                <li role="menuitem" tabindex="-1" class="" style="position: absolute; transform: translate(0px, 292px);">
+                                    <a class="spread back-cover" href="#">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="53" width="100%" src="images/pdf8.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">8</div>
+                                    </a>
+                                </li>
+                                <li role="menuitem" tabindex="0" style="position: absolute; transform: translate(0px, 0px);" class="current">
+                                    <a class="spread front-cover" href="#">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="53" width="100%" src="images/pdf1.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">1</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="share_view" class="drawer">
+                    <nav tabindex="0" role="menu" class="reader-view">
+                        <h1>Share this page</h1>
+                        <header>
+                            <div class="cover-image"><img src="images/page1.jpg"></div>
+                            <div class="text">
+                                <h2>Netson - edulog_commer_pro</h2>
+                                <h3>Page<span class="page-numbers">1</span></h3>
+                            </div>
+                        </header>
+                        <div class="links">
+                            <a id="facebook-button" href="/share/facebook" tabindex="-1"><span>Facebook</span></a>
+                            <a id="pintrest-button" href="/share/pintrest" tabindex="-1"><span>Pinterest</span></a>
+                            <a id="twitter-button" href="/share/twitter" tabindex="-1"><span>Twitter</span></a>
+                            <a id="email-button" href="/share/email" tabindex="-1"><span>Email</span></a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div id="report_content" class="drawer">
+                    <div id="report_view" class="reader-view">
+                        <h1>Report Publication</h1>
+                        <header>Your help goes a long way towards keeping the bad guys away.</header>
+                        <form action="https://view.publitas.com/netson/edulog_commer_pro/report_content">
+                            <h2>What's the problem?</h2>
+                            <ul>
+                                <li><input type="radio" name="reason" value="malicious" id="radio_malicious"><label for="radio_malicious">Fake, malicious or scam</label></li>
+                                <li><input type="radio" name="reason" value="copyright_infringement" id="radio_copyright"><label for="radio_copyright">Copyrighted material</label></li>
+                            </ul><input type="submit" value="Report Publication" disabled="">
+                        </form>
+                        <div class="success-message">
+                            <h1>Publication Reported</h1>
+                            <div class="message">Thank you for you help.</div>
+                        </div>
+                        <div class="error-message">
+                            <h1>Sorry, something went wrong.</h1>
+                            <div class="message">We have been notified about this issue.</div>
+                        </div>
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="content" class="reader-view" style="opacity: 1; transition: none 0s ease 0s;">
+                <div id="publication_wrapper">
+                    <div id="chrome" aria-hidden="true">
+                        <a id="prev_slide" class="navButton" tabindex="-1" href="#"></a>
+                        <a id="next_slide" class="navButton" tabindex="-1" href="#"></a>
+                        <div id="progress_indicator">
+                            <span class="first-page"></span>
+                            <span class="page-numbers">2-3</span>
+                            <span class="separator">/</span>
+                            <span class="total">8</span>
+                            <span class="last-page"></span>
+                        </div>
+                    </div>
+                    <section id="publication_content" tabindex="0">
+                        <div id="slider" class="slider reader-view">
+                            <div class="b-load">
+                                <div><img src="images/pdf1.jpg" /></div>
+                                <div><img src="images/pdf2.jpg" /></div>
+                                <div><img src="images/pdf3.jpg" /></div>
+                                <div><img src="images/pdf4.jpg" /></div>
+                                <div><img src="images/pdf5.jpg" /></div>
+                                <div><img src="images/pdf6.jpg" /></div>
+                                <div><img src="images/pdf7.jpg" /></div>
+                                <div><img src="images/pdf8.jpg" /></div>
+                            </div>
+                        </div>
+                    </section>
+                    <div id="underlay" aria-hidden="true"></div>
+                    <div id="left_cover_page" aria-hidden="true"></div>
+                    <div id="right_cover_page" aria-hidden="true"></div>
+                    <a data-href="open-publication" id="banner-cta">
+                        <div class="wrapper">
+                            <span class="cta-bg cta-fg">Open</span>
+                        </div>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/jquery-1.12.3.min.js "></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery.fullscreen.min.js" type="text/javascript"></script>
+    <script src="js/page.js"></script>
+</body>
+
+</html>
