@@ -4671,10 +4671,6 @@ a+button {
 html {
     margin: 0;
     padding: 0;
-    -webkit-text-size-adjust: none;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
 }
 
 td #publication #publitas_branding .logo.cta,
@@ -5115,10 +5111,6 @@ td #publication #publitas_branding .logo.cta,
 html {
     margin: 0;
     padding: 0;
-    -webkit-text-size-adjust: none;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
 }
 
 body.page-block {
