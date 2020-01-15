@@ -4673,6 +4673,14 @@ html {
     padding: 0;
 }
 
+.css-6zwtw9,
+[data-css-6zwtw9] {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
 td #publication #publitas_branding .logo.cta,
 #publication #publitas_branding .logo.cta:link,
 #publication #publitas_branding .logo.cta:visited {
