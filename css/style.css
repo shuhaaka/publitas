@@ -4470,6 +4470,7 @@ a+button {
 
 #publication #content.front-cover #banner-cta {
     left: 50%;
+<<<<<<< HEAD
 }
 
 #publication #content.branded.front-cover #publitas_branding {
@@ -4535,6 +4536,73 @@ a+button {
     background-position: 50% 50%;
 }
 
+=======
+}
+
+#publication #content.branded.front-cover #publitas_branding {
+    left: 50%;
+}
+
+#publication #main_menu a .icon {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#publication #main_menu>nav>a .icon {
+    width: 49px;
+    height: 100%;
+    display: inline-block;
+}
+
+#publication #main_menu {
+    -webkit-box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    overflow: visible;
+    font-size: 0;
+    padding: 4px 0;
+}
+
+#publication {
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#publication.loaded #reader {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+}
+
+#publication .screen-reader {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    z-index: -1000;
+}
+
+#publication.desktop a {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 #publication #main_menu>nav>a {
     height: 48px;
     padding: 0;
@@ -4562,6 +4630,7 @@ a+button {
     color: #333;
 }
 
+<<<<<<< HEAD
 #publication #chrome .navButton:active {
     background-color: rgba(0, 0, 0, 0.05);
     -webkit-transition: all 50ms;
@@ -4571,6 +4640,8 @@ a+button {
     transition: all 50ms;
 }
 
+=======
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 #publication.desktop a {
     cursor: pointer;
     background-repeat: no-repeat;
@@ -4596,7 +4667,10 @@ a+button {
     border-style: solid;
     border-width: 1px 1px 1px 0;
     border-color: transparent;
+<<<<<<< HEAD
     outline: none;
+=======
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
 
 #publication #main_menu>nav>a:visited,
@@ -4608,6 +4682,7 @@ a+button {
 #publication #content #publication_wrapper {
     position: relative;
     overflow: visible;
+<<<<<<< HEAD
 }
 
 #publication.zoomed #main_menu a[data-href='toggle_zoom'] .icon {
@@ -4615,6 +4690,10 @@ a+button {
     -webkit-background-size: 24px 24px;
     -moz-background-size: 24px 24px;
     background-size: 24px 24px;
+=======
+    max-width: 95%;
+    margin: 0 auto;
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
 
 #publication #main_menu {
@@ -4686,9 +4765,20 @@ a+button {
 html {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     -webkit-text-size-adjust: none;
     height: 100%;
     width: 100%;
+=======
+}
+
+.css-6zwtw9,
+[data-css-6zwtw9] {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
 
 td #publication #publitas_branding .logo.cta,
@@ -4713,7 +4803,12 @@ td #publication #publitas_branding .logo.cta,
     vertical-align: middle;
 }
 
+<<<<<<< HEAD
 #publication #main_menu>nav>a:hover {
+=======
+#publication #main_menu>nav>a:hover,
+#publication #main_menu>nav>a:focus {
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
     border-radius: 0 2px 2px 0;
     border-color: #ccc;
     border-width: 1px 1px 1px 0;
@@ -4805,7 +4900,12 @@ td #publication #publitas_branding .logo.cta,
     background-size: 24px 24px;
 }
 
+<<<<<<< HEAD
 #publication #main_menu>nav>a:hover {
+=======
+#publication #main_menu>nav>a:hover,
+#publication #main_menu>nav>a:focus {
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
     border-radius: 0 2px 2px 0;
     border-color: #ccc;
     border-width: 1px 1px 1px 0;
@@ -4827,7 +4927,12 @@ td #publication #publitas_branding .logo.cta,
     border-radius: 0 2px 2px 0;
 }
 
+<<<<<<< HEAD
 #publication #main_menu>nav>a:hover .content {
+=======
+#publication #main_menu>nav>a:hover .content,
+#publication #main_menu>nav>a:focus .content {
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
     display: inline-block;
 }
 
@@ -5126,9 +5231,12 @@ td #publication #publitas_branding .logo.cta,
 html {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     -webkit-text-size-adjust: none;
     height: 100%;
     width: 100%;
+=======
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
 
 body.page-block {
@@ -5235,10 +5343,15 @@ h2 {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
+#publication #content #slider,
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 #publication #content #flipper {
     height: 100%;
     width: 100%;
     border-radius: 2px;
+<<<<<<< HEAD
     cursor: -webkit-zoom-in;
     cursor: -moz-zoom-in;
 }
@@ -5256,6 +5369,8 @@ h2 {
 
 #publication #slider .slide .content.ui-draggable-dragging {
     cursor: -webkit-grabbing;
+=======
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
 
 #publication .slider .panel {
@@ -5263,7 +5378,10 @@ h2 {
     outline: none;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     transform: translate3d(-1416px, 0px, 0px);
+=======
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
 
 #publication .slider .slide {
@@ -5272,9 +5390,24 @@ h2 {
     top: 0;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     display: block;
     overflow: visible;
     left: 1416px;
+=======
+}
+
+#publication .slider .slide .loader {
+    position: absolute;
+    height: 50px;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: -25px;
+    line-height: 50px;
+    vertical-align: middle;
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
 
 #publication .slider .slide .content {
@@ -5707,6 +5840,7 @@ h2 {
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 #publication .spread-overview .spread,
 #publication .spread-overview .spread:link,
 #publication .spread-overview .spread:visited {
@@ -5728,6 +5862,8 @@ h2 {
     color: #333;
 }
 
+=======
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 #publication .spread-overview .spread.front-cover {
     width: 50%;
     left: 50%;
@@ -5964,6 +6100,7 @@ ul {
 
 #publication #main_menu a[data-href='toggle_fullscreen'] .exit {
     display: none;
+<<<<<<< HEAD
 }
 
 #publication #main_menu a[data-href='home'] .icon {
@@ -6208,4 +6345,6 @@ ul {
 
 #publication.zoomed #chrome .navButton#next_slide {
     right: 0px;
+=======
+>>>>>>> e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
 }
