@@ -23,8 +23,8 @@ $(function() {
 
         $('#zoom_slider .content').removeClass('zoomable-out').addClass('zoomable-in').css({
             'transform-origin': '0px 0px',
-            'width': '1756px',
-            'height': '1140px',
+            'width': '0',
+            'height': '0',
             'transform': 'scale(1) translate3d(0, 0, 0px)',
             'transition': 'none 0s ease 0s',
         });
@@ -33,22 +33,29 @@ $(function() {
     function zoom_out(x, y) {
         topx = $("#flipper").offset().left;
         topy = $("#flipper").offset().top;
-        m_y = Math.round(y - topy) * 1.35;
-        m_x = Math.round(x - topx) * 1.5;
+        if (x != undefined) {
+            m_y = Math.round(y - topy) * 1.35;
+            m_x = Math.round(x - topx) * 1.5;
+        } else {
+            m_y = 300;
+            m_x = 430;
+        };
         $('#publication').addClass('zoomed');
         $('#zoom_slider').css({
             'visibility': 'visible',
             'z-index': '0'
         });
+
         $('#flipper').css({
             'visibility': 'hidden'
         })
         $('#zoom_slider .content').removeClass('zoomable-in').addClass('zoomable-out').css({
             'transform-origin': '0px 0px',
-            'width': '1756px',
-            'height': '1140px',
             'transform': 'scale(1) translate3d(-' + m_x + 'px, -' + m_y + 'px, 0px)',
             'transition': 'none 0s ease 0s',
+        }).animate({
+            'width': '1756px',
+            'height': '1140px',
         });
 
     }
@@ -130,10 +137,5 @@ $(window).resize(function() {
             height: (win_width - 144) / proportion,
             left: 44
         });
-    } ===
-    ===
-    = >>>
-    >>>
-    >
-    e46ea407612abeddf9ddd6e4e115bd5dac8e87a5
+    }
 });
