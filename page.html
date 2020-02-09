@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 10 ]>
+   <html lang="en" class="ie">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>Publitas CMS</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.booklet.1.1.0.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="page-block">
+    <div id="publication">
+        <div id="reader">
+
+            <div id="main_menu">
+                <nav id="view_selector" tabindex="0" role="menu" aria-label="Main menu">
+                    <a data-href="home" target="" tabindex="-1" href="#" class="" role="menuitem" aria-haspopup="" name="home">
+                        <div class="icon"></div>
+                        <div class="content">Home</div>
+                    </a>
+                    <a data-href="toggle_zoom" target="" tabindex="-1" href="" class="" role="menuitem" aria-haspopup="" name="toggle_zoom">
+                        <div class="icon"></div>
+                        <div class="content">Zoom in</div>
+                    </a>
+                    <a data-href="spread_overview" target="" tabindex="-1" href="" class="submenu" role="menuitem" aria-haspopup="true" aria-expanded="&quot;false&quot;" name="spread_overview">
+                        <div class="icon"></div>
+                        <div class="content">Page overview</div>
+                    </a>
+                    <a data-href="toggle_fullscreen" target="" tabindex="-1" href="" class="" role="menuitem" aria-haspopup="" name="toggle_fullscreen">
+                        <div class="icon"></div>
+                        <div class="content">
+                            <span class="enter">Full screen</span>
+                            <span class="exit">Exit full screen</span>
+                        </div>
+                    </a>
+
+                </nav>
+            </div>
+            <div id="panel" class="">
+                <div id="spread_overview" class="drawer">
+                    <div class="spread-overview reader-view">
+                        <div class="scroll-wrapper" style="overflow-y: auto;">
+                            <ul class="list" tabindex="-1" role="menu" style="position: relative; height: 375px;">
+                                <li role="menuitem" tabindex="0" style="position: absolute; transform: translate(0px, 0px);">
+                                    <a class="spread front-cover" href="#">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="97" width="100%" src="images/im1.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">1</div>
+                                    </a>
+                                </li>
+                                <li role="menuitem" tabindex="-1" style="position: absolute; transform: translate(0px, 117px);" class="current">
+                                    <a class="spread" href="#">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="97" width="50%" src="images/im2.jpg">
+                                            <img height="97" width="50%" src="images/im3.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">2-3</div>
+                                    </a>
+                                </li>
+                                <li role="menuitem" tabindex="-1" style="position: absolute; transform: translate(0px, 234px);" class="">
+                                    <a class="spread" href="https://view.publitas.com/netson/edulog_commer_pro/page/4-5">
+                                        <div class="images" aria-hidden="true">
+                                            <img height="97" width="50%" src="images/im4.jpg">
+                                            <img height="97" width="50%" src="images/im5.jpg">
+                                        </div>
+                                        <div class="overlay" aria-hidden="true"></div>
+                                        <div class="pages">4-5</div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="content" class="reader-view" style="opacity: 1; transition: none 0s ease 0s;">
+                <div id="publication_wrapper">
+                    <div id="chrome" aria-hidden="true">
+                        <a id="prev_slide" class="navButton" tabindex="-1" href="#"></a>
+                        <a id="next_slide" class="navButton" tabindex="-1" href="#"></a>
+                        <div id="progress_indicator"><span class="first-page"></span><span class="page-numbers">2-3</span><span class="separator">/</span><span class="total">5</span><span class="last-page"></span>
+                        </div>
+                    </div>
+                    <section id="publication_content" tabindex="0" class="flipper">
+                        <div id="flipper" class="reader-view">
+                            <div class="flippingPage right back">
+                                <img src="images/im1.jpg" width="885" height="1280">
+                            </div>
+                            <div class="flippingPage left front">
+                                <img src="images/im2.jpg" width="885" height="1280">
+                            </div>
+                            <div class="flippingPage right front">
+                                <img src="images/im3.jpg" width="885" height="1280">
+                            </div>
+                            <div class="flippingPage left back">
+                                <img src="images/im4.jpg" width="885" height="1280">
+                            </div>
+                            <div class="flippingPage right back">
+                                <img src="images/im5.jpg" width="885" height="1280">
+                            </div>
+                        </div>
+                        <div id="zoom_slider">
+                            <div id="slider" class="slider reader-view">
+                                <div class="panel" style="transform: translate3d(-1416px, 0px, 0px);">
+                                    <div class="slide reader-view current">
+                                        <div class="content zoomable-in" aria-hidden="false">
+                                            <div class="spread">
+                                                <img class="left" src="images/im2.jpg" alt="" style="width: 878px; height: 1140px;">
+                                                <img class="right" src="images/im3.jpg" alt="" style="width: 878px; height: 1140px;">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                    <div id="underlay" aria-hidden="true"></div>
+                    <div id="left_cover_page"></div>
+                    <div id="right_cover_page"></div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="js/jquery-1.12.3.min.js "></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.fullscreen.min.js" type="text/javascript"></script>
+    <script src="js/page.js"></script>
+</body>
+
+</html>
