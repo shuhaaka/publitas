@@ -10,6 +10,12 @@ $(".submenu").click(function() {
 })
 
 
+$(".flippingPage img").each(function() {
+    $(this).attr("width", $(this).prop('naturalWidth')).attr("height", $(this).prop('naturalHeight'));
+
+});
+
+
 $(function() {
     function zoom_in() {
         $('#publication').removeClass('zoomed');
@@ -60,6 +66,9 @@ $(function() {
 
     }
 
+
+
+
     // open in fullscreen
     $('a[name="toggle_fullscreen"]').click(function() {
         event.preventDefault();
@@ -99,6 +108,9 @@ $(function() {
 
 
 $(window).load(function() {
+
+
+
     var win = $(this); //this = window
     var win_height = win.outerHeight();
     var win_width = win.outerWidth();
