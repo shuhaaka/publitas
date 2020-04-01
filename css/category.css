@@ -1220,7 +1220,7 @@ h4 {
 }
 
 .paddles_container {
-    z-index: 12;
+    z-index: 2;
 }
 
 .has_paddles .paddle {
@@ -1275,11 +1275,10 @@ h4 {
     z-index: 11;
 }
 
-.auto__shared_react_lists_list_items li,
 .auto__shared_react_lists_list_items ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 -1px;
 }
 
 .auto__shared_carousels_carousel ul li {
@@ -1743,4 +1742,74 @@ a.badge:focus {
     max-width: 335px;
     z-index: 1030;
     box-shadow: rgba(20, 23, 28, 0.25) 0px 4px 16px;
+}
+
+@media (min-width:480px) {
+    .container {
+        max-width: 450px
+    }
+    .col-md-71 {
+        max-width: 50%;
+    }
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image .react_document_image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image img {
+        width: 204px;
+    }
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+    .col-md-71 {
+        max-width: 33.33%;
+    }
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image .react_document_image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image img {
+        width: 163px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-71 {
+        max-width: 25%;
+    }
+    .container {
+        max-width: 720px
+    }
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image .react_document_image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image img {
+        width: 168px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-md-71 {
+        max-width: 20%;
+    }
+    .container {
+        max-width: 960px
+    }
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image .react_document_image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image img {
+        width: 182px;
+    }
+}
+
+@media (min-width:1200px) {
+    .col-md-71 {
+        max-width: 14.2857%;
+    }
+    .container {
+        max-width: 1170px
+    }
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image .react_document_image,
+    .grid .auto__shared_react_cells_base .list_anchor_container .list_anchor .image img {
+        width: 155px;
+    }
 }

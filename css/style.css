@@ -2270,7 +2270,7 @@ p {
     left: 0px;
     right: 0px;
     box-sizing: border-box;
-    min-width: 1024px;
+    width: 100%;
 }
 
 .css-1l3vjv8,
